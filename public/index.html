@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Video Scraper</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>🎬 Short Video Scraper</h1>
+
+    <div class="controls">
+        <input type="text" id="query" placeholder="Search for short videos..." value="labubu">
+        <select id="count">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </select>
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <p id="status"></p>
+
+    <div class="download-bar" id="download">
+        <button id="downloadBtn">⬇ Download All</button>
+    </div>
+
+    <div id="results" class="grid"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
