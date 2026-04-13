@@ -6,7 +6,7 @@ A web app for searching and downloading short videos. It uses the SerpAPI Google
 
 - [Node.js](https://nodejs.org/) (v18+)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed and available on your `PATH`
-- A [SerpAPI](https://serpapi.link/ania) API key
+- A [SerpAPI]([https://serpapi.link/ania](https://serpapi.com/google-short-videos-api?utm_source=freecodecamp)) API key
 
 ### Install yt-dlp (macOS)
 
