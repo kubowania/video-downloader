@@ -1,12 +1,12 @@
 # Video Downloader
 
-A web app for searching and downloading short videos. It uses the SerpAPI Google Short Videos engine to find videos and [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download them.
+A web app for searching and downloading short videos. It uses the SerpApi Google Short Videos engine to find videos and [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download them.
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18+)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed and available on your `PATH`
-- A [SerpAPI]([https://serpapi.link/ania](https://serpapi.com/google-short-videos-api?utm_source=freecodecamp)) API key
+- A [SerpApi]([https://serpapi.link/ania](https://serpapi.com/google-short-videos-api?utm_source=freecodecamp)) API key
 
 ### Install yt-dlp (macOS)
 
@@ -22,7 +22,7 @@ brew install yt-dlp
 npm install
 ```
 
-2. **Configure your SerpAPI key:**
+2. **Configure your SerpApi key:**
 
 Create a `.env` file in the project root:
 
